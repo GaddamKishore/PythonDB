@@ -7,3 +7,5 @@ insert_row_sql = "insert into Capitals values('Telangana','Hyderabad')"
 c.execute(insert_row_sql)
 insert_row_sql = "insert into Capitals values('Tamilnadu','Chennai')"
 c.execute(insert_row_sql)
+display_sql = "select * from Capitals"
+c.execute(display_sql)
